@@ -1,0 +1,10 @@
+#div1 {
+    width: 80%;
+    border: 3px solid black;
+    background: yellow;
+    color: blue;
+}
+/* los id comienzan con un # y las clases con un . */
+.underline{
+    text-decoration: underline;
+}

@@ -1,0 +1,29 @@
+
+body{
+  /* el estilo se define como selector{accion:atributo} */
+  background: pink; /* cambia el color de fondo de la pagina */
+  font-family: Arial; /* cambia la fuente de la pagina */ 
+}
+/* lso selectores se pueden combinar ejemplo a continuacion */
+h1,h2,h3,h4{
+  font-family: Georgia;
+  color: red;
+}
+/* existen diferentes tipos de css
+interna este en un ejemplo de este tipo
+external cuando el css esta afura en un file distinto */
+
+/* clases  */
+.blueboldtext{
+  font-size: small;
+  color: blue;
+  font-weight: bold;
+}
+ .largegreentext{
+   font-size: large;
+   color: green;
+   font-weight: bold;
+ }
+ .underline{
+   text-decoration: underline;
+ }

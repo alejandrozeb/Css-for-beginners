@@ -1,0 +1,22 @@
+		body {
+			background-color: yellow;
+		}
+
+		h1 {
+			color: red;
+			text-align: center;
+		}
+		h2 {
+			color: #33adff;
+		}
+		h3{
+			color: rgb(255, 0, 255)
+		}
+
+		p {
+			font-family: "Arial";
+			font-size: 20px;
+		}
+		/* los colores deben ser combinado por el producto de redd green y blue */
+		/* se pueden usar diferentes paginas para encontrar colores una de ellas es colorpicker.com */
+		
