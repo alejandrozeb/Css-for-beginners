@@ -3,6 +3,11 @@
     border: 3px solid black;
     background: yellow;
     color: blue;
+    /* es el margen entre el elemento y os margenes exteriores */
+    margin: 0 px 0px 30px 50px;
+    /* es la distancia entre el contenido y el margen del div */
+    padding: 30px 0px 0px 30px;
+
 }
 /* los id comienzan con un # y las clases con un . */
 .underline{
