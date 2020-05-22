@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style type="text/css">
+    #yellow{
+        width: 400px;
+        height: 400px;
+        background-color: yellow;
+        top: 0px;
+        position: absolute;
+        z-index: 1;
+    }
+    #blue{
+        width: 600px;
+        height: 50px;
+        background-color: blue;
+        top: 0px;
+        position: absolute;
+        z-index: 2;
+        /* zindex permite comlocar el orden de cada seccion de divd */
+    }
+    </style>
+</head>
+<body>
+    <div id="blue"></div>
+    <div id="yellow"></div>
+</body>
+</html>
