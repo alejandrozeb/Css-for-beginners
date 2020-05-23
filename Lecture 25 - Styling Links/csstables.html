@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <style  type="text/css">
+        table,td,th{
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th,td{
+            padding: 15px;
+        }
+        tr:hover{
+            background-color: cyan;
+        }
+        /* cuando el curso psa sobre la tabla la fila(tr) cambia de color */
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Grade</th>
+            <!-- la diferencia entre th y td es: th se usa para encabezados de la tabla que por defecto estan en negrito y el td para el cuerpo de la tabla -->
+        </tr>
+        <tr>
+            <td>Jhon</td>
+            <td>Smitth</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Ted</td>
+            <td>Evans</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Joe</td>
+            <td>Black</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Mable</td>
+            <td>Brown</td>
+            <td>D</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
